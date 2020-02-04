@@ -1,0 +1,160 @@
+
+Laegjarn.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+laegjarn_manteau_col
+  rotate: false
+  xy: 135, 105
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+laegjarn_cape
+  rotate: false
+  xy: 1, 1
+  size: 102, 73
+  orig: 102, 73
+  offset: 0, 0
+  index: -1
+laegjarn_cheuveux_1
+  rotate: false
+  xy: 1, 76
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+laegjarn_cheuveux_2
+  rotate: false
+  xy: 55, 76
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+laegjarn_bras_gauche
+  rotate: false
+  xy: 169, 130
+  size: 23, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+laegjarn_epaulette_gauche
+  rotate: false
+  xy: 169, 105
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+laegjarn_avant_bras
+  rotate: false
+  xy: 1, 134
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+laegjarn_main_gauche
+  rotate: false
+  xy: 181, 85
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+laegjarn_jambe_gauche
+  rotate: false
+  xy: 205, 49
+  size: 27, 57
+  orig: 27, 57
+  offset: 0, 0
+  index: -1
+laegjarn_bassin
+  rotate: false
+  xy: 98, 80
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+laegjarn_obj1
+  rotate: false
+  xy: 234, 49
+  size: 18, 57
+  orig: 18, 57
+  offset: 0, 0
+  index: -1
+laegjarn_torse
+  rotate: false
+  xy: 205, 1
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+laegjarn_sangle
+  rotate: false
+  xy: 55, 121
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+laegjarn_ceinture
+  rotate: false
+  xy: 126, 138
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1
+laegjarn_jambe_droite
+  rotate: false
+  xy: 172, 1
+  size: 31, 54
+  orig: 31, 54
+  offset: 0, 0
+  index: -1
+laegjarn_protec_bras_droit
+  rotate: false
+  xy: 181, 57
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+laegjarn_tete_normal
+  rotate: false
+  xy: 105, 1
+  size: 65, 77
+  orig: 65, 77
+  offset: 0, 0
+  index: -1
+laegjarn_bras_droit
+  rotate: false
+  xy: 98, 115
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+laegjarn_epaulette_droite
+  rotate: false
+  xy: 135, 80
+  size: 44, 23
+  orig: 44, 23
+  offset: 0, 0
+  index: -1
+laegjarn_insigne_muspell
+  rotate: false
+  xy: 243, 1
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+laegjarn_main_droite
+  rotate: false
+  xy: 126, 161
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+laegjarn_porte_cape
+  rotate: false
+  xy: 152, 161
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1

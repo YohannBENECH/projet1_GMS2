@@ -1,0 +1,916 @@
+{
+	"skeleton": {
+		"hash": " ",
+		"spine":"3.6.39"
+		"width": 115.38,
+		"height": 155.47,
+		"fps": 24,
+		
+		"name": "Armature"
+	},
+	"bones": [
+		{
+			"x": 3.3952,
+			"y": 82.0631,
+			"rotation": 71.3319,
+			"name": "root"
+		},
+		{
+			"x": -32.9956,
+			"y": 5.5561,
+			"name": "hanche_d",
+			"parent": "root"
+		},
+		{
+			"x": -24.3602,
+			"y": -11.8789,
+			"name": "hanche_g",
+			"parent": "root"
+		},
+		{
+			"x": 1.2418,
+			"y": 19.7852,
+			"name": "bras_droit",
+			"parent": "root"
+		},
+		{
+			"x": 8.5384,
+			"y": -8.526,
+			"name": "bras_gauche",
+			"parent": "root"
+		},
+		{
+			"x": 18.787,
+			"y": 4.6687,
+			"scaleX": 0.7906,
+			"scaleY": 0.7906,
+			"name": "tête",
+			"parent": "root"
+		},
+		{
+			"name": "cape",
+			"parent": "root"
+		},
+		{
+			"name": "epaulette_droite",
+			"parent": "root"
+		},
+		{
+			"name": "obj",
+			"parent": "root"
+		},
+		{
+			"x": 16.541,
+			"y": 0.9865,
+			"rotation": -39.5069,
+			"name": "epaulette_gauche",
+			"parent": "root"
+		},
+		{
+			"x": 21.6233,
+			"y": 8.4013,
+			"scaleX": 0.9524,
+			"scaleY": 0.9524,
+			"name": "cheveux",
+			"parent": "tête"
+		},
+		{
+			"x": -18.7417,
+			"y": -18.3648,
+			"name": "avant_bras_gauche",
+			"parent": "bras_gauche"
+		},
+		{
+			"x": -19.5934,
+			"y": -0.1573,
+			"name": "avant_bras_droit",
+			"parent": "bras_droit"
+		},
+		{
+			"x": -15.3913,
+			"y": -6.0579,
+			"name": "main_droite",
+			"parent": "avant_bras_droit"
+		},
+		{
+			"x": -8.1434,
+			"y": -7.6161,
+			"name": "main_gauche",
+			"parent": "avant_bras_gauche"
+		}
+	],
+	"slots": [
+		{
+			"name": "laegjarn_manteau_col",
+			"bone": "root",
+			"attachment": "laegjarn_manteau_col"
+		},
+		{
+			"name": "laegjarn_cape",
+			"bone": "cape",
+			"attachment": "laegjarn_cape"
+		},
+		{
+			"name": "laegjarn_cheuveux_1",
+			"bone": "cheveux",
+			"attachment": "laegjarn_cheuveux_1"
+		},
+		{
+			"name": "laegjarn_cheuveux_2",
+			"bone": "cheveux",
+			"attachment": "laegjarn_cheuveux_2"
+		},
+		{
+			"name": "laegjarn_bras_gauche",
+			"bone": "bras_gauche",
+			"attachment": "laegjarn_bras_gauche"
+		},
+		{
+			"name": "laegjarn_epaulette_gauche",
+			"bone": "epaulette_gauche",
+			"attachment": "laegjarn_epaulette_gauche"
+		},
+		{
+			"name": "laegjarn_avant_bras1",
+			"bone": "avant_bras_gauche",
+			"attachment": "laegjarn_avant_bras"
+		},
+		{
+			"name": "laegjarn_main_gauche",
+			"bone": "main_gauche",
+			"attachment": "laegjarn_main_gauche"
+		},
+		{
+			"name": "laegjarn_jambe_gauche",
+			"bone": "hanche_g",
+			"attachment": "laegjarn_jambe_gauche"
+		},
+		{
+			"name": "laegjarn_bassin",
+			"bone": "root",
+			"attachment": "laegjarn_bassin"
+		},
+		{
+			"name": "laegjarn_obj1",
+			"bone": "obj",
+			"attachment": "laegjarn_obj1"
+		},
+		{
+			"name": "laegjarn_torse",
+			"bone": "root",
+			"attachment": "laegjarn_torse"
+		},
+		{
+			"name": "laegjarn_sangle",
+			"bone": "root",
+			"attachment": "laegjarn_sangle"
+		},
+		{
+			"name": "laegjarn_ceinture",
+			"bone": "root",
+			"attachment": "laegjarn_ceinture"
+		},
+		{
+			"name": "laegjarn_jambe_droite",
+			"bone": "hanche_d",
+			"attachment": "laegjarn_jambe_droite"
+		},
+		{
+			"name": "laegjarn_protec_bras_droit",
+			"bone": "root",
+			"attachment": "laegjarn_protec_bras_droit"
+		},
+		{
+			"name": "laegjarn_tete_normal",
+			"bone": "tête",
+			"attachment": "laegjarn_tete_normal"
+		},
+		{
+			"name": "laegjarn_bras_droit",
+			"bone": "bras_droit",
+			"attachment": "laegjarn_bras_droit"
+		},
+		{
+			"name": "laegjarn_epaulette_droite",
+			"bone": "epaulette_droite",
+			"attachment": "laegjarn_epaulette_droite"
+		},
+		{
+			"name": "laegjarn_avant_bras",
+			"bone": "avant_bras_droit",
+			"attachment": "laegjarn_avant_bras"
+		},
+		{
+			"name": "laegjarn_insigne_muspell",
+			"bone": "root",
+			"attachment": "laegjarn_insigne_muspell"
+		},
+		{
+			"name": "laegjarn_main_droite",
+			"bone": "main_droite",
+			"attachment": "laegjarn_main_droite"
+		},
+		{
+			"name": "laegjarn_porte_cape",
+			"bone": "root",
+			"attachment": "laegjarn_porte_cape"
+		}
+	],
+	"skins": {
+		"default": {
+			"laegjarn_porte_cape": {
+				"laegjarn_porte_cape": {
+					"name": "laegjarn_porte_cape",
+					"width": 15,
+					"height": 17,
+					"x": 4.36,
+					"y": 10.88,
+					"rotation": -68.46
+				}
+			},
+			"laegjarn_cheuveux_1": {
+				"laegjarn_cheuveux_1": {
+					"name": "laegjarn_cheuveux_1",
+					"width": 52,
+					"height": 56,
+					"x": -18.05,
+					"y": 16.08,
+					"rotation": -61.38
+				}
+			},
+			"laegjarn_cheuveux_2": {
+				"laegjarn_cheuveux_2": {
+					"name": "laegjarn_cheuveux_2",
+					"width": 41,
+					"height": 43,
+					"x": -11.58,
+					"y": -18.55,
+					"rotation": -67.74
+				}
+			},
+			"laegjarn_jambe_gauche": {
+				"laegjarn_jambe_gauche": {
+					"name": "laegjarn_jambe_gauche",
+					"width": 27,
+					"height": 57,
+					"x": -14.17,
+					"y": -12.67,
+					"rotation": -57.39
+				}
+			},
+			"laegjarn_bras_gauche": {
+				"laegjarn_bras_gauche": {
+					"name": "laegjarn_bras_gauche",
+					"width": 23,
+					"height": 34,
+					"x": -9.17,
+					"y": -2.72,
+					"rotation": -48.58
+				}
+			},
+			"laegjarn_epaulette_gauche": {
+				"laegjarn_epaulette_gauche": {
+					"name": "laegjarn_epaulette_gauche",
+					"width": 34,
+					"height": 23,
+					"x": 8.43,
+					"y": -20.5,
+					"rotation": -68.46,
+					"scaleX": -1
+				}
+			},
+			"laegjarn_obj1": {
+				"laegjarn_obj1": {
+					"name": "laegjarn_obj1",
+					"width": 18,
+					"height": 57,
+					"x": -27.65,
+					"y": -8.88,
+					"rotation": -74.87
+				}
+			},
+			"laegjarn_epaulette_droite": {
+				"laegjarn_epaulette_droite": {
+					"name": "laegjarn_epaulette_droite",
+					"width": 44,
+					"height": 23,
+					"x": -3.96,
+					"y": 25.3,
+					"rotation": -54.11,
+					"scaleX": 0.8604,
+					"scaleY": 0.8604
+				}
+			},
+			"laegjarn_avant_bras": {
+				"laegjarn_avant_bras": {
+					"name": "laegjarn_avant_bras",
+					"width": 19,
+					"height": 23,
+					"x": -5.88,
+					"y": -0.49,
+					"rotation": -68.46
+				}
+			},
+			"laegjarn_manteau_col": {
+				"laegjarn_manteau_col": {
+					"name": "laegjarn_manteau_col",
+					"width": 32,
+					"height": 31,
+					"x": 20.84,
+					"y": -12.38,
+					"rotation": -96.85
+				}
+			},
+			"laegjarn_bras_droit": {
+				"laegjarn_bras_droit": {
+					"name": "laegjarn_bras_droit",
+					"width": 26,
+					"height": 31,
+					"x": -8.11,
+					"y": 0.25,
+					"rotation": -97.62
+				}
+			},
+			"laegjarn_ceinture": {
+				"laegjarn_ceinture": {
+					"name": "laegjarn_ceinture",
+					"width": 34,
+					"height": 21,
+					"x": -13.27,
+					"y": -6.26,
+					"rotation": -73.08
+				}
+			},
+			"laegjarn_jambe_droite": {
+				"laegjarn_jambe_droite": {
+					"name": "laegjarn_jambe_droite",
+					"width": 31,
+					"height": 54,
+					"x": -15.62,
+					"y": -10.95,
+					"rotation": -78.59
+				}
+			},
+			"laegjarn_main_gauche": {
+				"laegjarn_main_gauche": {
+					"name": "laegjarn_main_gauche",
+					"width": 17,
+					"height": 18,
+					"x": -1.98,
+					"y": -1.18,
+					"rotation": -91
+				}
+			},
+			"laegjarn_protec_bras_droit": {
+				"laegjarn_protec_bras_droit": {
+					"name": "laegjarn_protec_bras_droit",
+					"width": 20,
+					"height": 26,
+					"x": -25.97,
+					"y": 8.58,
+					"rotation": -93.49
+				}
+			},
+			"laegjarn_tete_normal": {
+				"laegjarn_tete_normal": {
+					"name": "laegjarn_tete_normal",
+					"width": 65,
+					"height": 77,
+					"x": 26.76,
+					"y": 11.28,
+					"rotation": -68.46
+				}
+			},
+			"laegjarn_bassin": {
+				"laegjarn_bassin": {
+					"name": "laegjarn_bassin",
+					"width": 35,
+					"height": 33,
+					"x": -20.15,
+					"y": 0.13,
+					"rotation": -73.86
+				}
+			},
+			"laegjarn_avant_bras1": {
+				"laegjarn_avant_bras": {
+					"name": "laegjarn_avant_bras",
+					"width": 19,
+					"height": 23,
+					"x": -2.11,
+					"y": -0.48,
+					"rotation": -44.16,
+					"scaleX": -1
+				}
+			},
+			"laegjarn_torse": {
+				"laegjarn_torse": {
+					"name": "laegjarn_torse",
+					"width": 36,
+					"height": 46,
+					"x": 1.97,
+					"y": 2.7,
+					"rotation": -68.46
+				}
+			},
+			"laegjarn_insigne_muspell": {
+				"laegjarn_insigne_muspell": {
+					"name": "laegjarn_insigne_muspell",
+					"width": 11,
+					"height": 12,
+					"x": 4.93,
+					"y": -10.48,
+					"rotation": -44.12
+				}
+			},
+			"laegjarn_sangle": {
+				"laegjarn_sangle": {
+					"name": "laegjarn_sangle",
+					"width": 27,
+					"height": 22,
+					"x": 1.54,
+					"y": 1.34,
+					"rotation": -68.46
+				}
+			},
+			"laegjarn_cape": {
+				"laegjarn_cape": {
+					"name": "laegjarn_cape",
+					"width": 102,
+					"height": 73,
+					"x": -28.35,
+					"y": 16.87,
+					"rotation": -67.29
+				}
+			},
+			"laegjarn_main_droite": {
+				"laegjarn_main_droite": {
+					"name": "laegjarn_main_droite",
+					"width": 24,
+					"height": 27,
+					"x": -1.26,
+					"y": -2.99,
+					"rotation": -50.71
+				}
+			}
+		}
+	},
+	"animations": {
+		"animtion0": {
+			"bones": {
+				"root": {
+					"translate": [
+						{
+							"time": 0,
+							"x": 165.21
+						},
+						{
+							"time": 0.4167,
+							"x": -110.32
+						},
+						{
+							"time": 0.8334,
+							"x": 165.21
+						}
+					],
+					"rotate": [
+						{
+							"time": 0,
+							"angle": 0
+						},
+						{
+							"time": 0.1667,
+							"angle": 14.02
+						},
+						{
+							"time": 0.375,
+							"angle": -12.02
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.1667
+						},
+						{
+							"time": 0.375
+						}
+					]
+				}
+			}
+		},
+		"flying": {
+			"bones": {
+				"root": {
+					"translate": [
+						{
+							"time": 0,
+							"y": 34.75
+						},
+						{
+							"time": 0.4167,
+							"y": 1.84
+						},
+						{
+							"time": 0.8334,
+							"y": 34.75
+						}
+					],
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -4.62
+						},
+						{
+							"time": 0.4167,
+							"angle": -4.44
+						},
+						{
+							"time": 0.8334,
+							"angle": -4.62
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"hanche_d": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -4.99
+						},
+						{
+							"time": 0.4167,
+							"angle": 8.61
+						},
+						{
+							"time": 0.8334,
+							"angle": -4.99
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"hanche_g": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -19.86
+						},
+						{
+							"time": 0.4167,
+							"angle": 2.06
+						},
+						{
+							"time": 0.8334,
+							"angle": -19.86
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"bras_droit": {
+					"rotate": [
+						{
+							"time": 0,
+							"curve": "stepped",
+							"angle": 0
+						},
+						{
+							"time": 0.2083,
+							"angle": -0.25
+						},
+						{
+							"time": 0.4166,
+							"angle": 11.7
+						},
+						{
+							"time": 0.6249,
+							"angle": -0.25
+						}
+					],
+					"shear": [
+						{
+							"time": 0,
+							"curve": "stepped"
+						},
+						{
+							"time": 0.2083
+						},
+						{
+							"time": 0.4166
+						},
+						{
+							"time": 0.6249
+						}
+					]
+				},
+				"bras_gauche": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -20.16
+						},
+						{
+							"time": 0.4167,
+							"angle": -15.13
+						},
+						{
+							"time": 0.8334,
+							"angle": -20.16
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"tête": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -2.73
+						},
+						{
+							"time": 0.4167,
+							"angle": 2.24
+						},
+						{
+							"time": 0.8334,
+							"angle": -2.73
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"cape": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -9.11
+						},
+						{
+							"time": 0.2083,
+							"angle": -7.55
+						},
+						{
+							"time": 0.4166,
+							"angle": 13.37
+						},
+						{
+							"time": 0.6249,
+							"angle": -7.55
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.2083
+						},
+						{
+							"time": 0.4166
+						},
+						{
+							"time": 0.6249
+						}
+					]
+				},
+				"epaulette_droite": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": 4.55
+						},
+						{
+							"time": 0.4167,
+							"angle": -1.3
+						},
+						{
+							"time": 0.8334,
+							"angle": 4.55
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"epaulette_gauche": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -12.69
+						},
+						{
+							"time": 0.4167,
+							"angle": 2.41
+						},
+						{
+							"time": 0.8334,
+							"angle": -12.69
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"cheveux": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": 0.75
+						},
+						{
+							"time": 0.4167,
+							"angle": 2.31
+						},
+						{
+							"time": 0.8334,
+							"angle": 0.75
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"avant_bras_gauche": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": 7.46
+						},
+						{
+							"time": 0.4167,
+							"angle": 42.2
+						},
+						{
+							"time": 0.8334,
+							"angle": 7.46
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"avant_bras_droit": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -17.31
+						},
+						{
+							"time": 0.4167,
+							"angle": 9.56
+						},
+						{
+							"time": 0.8334,
+							"angle": -17.31
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"main_droite": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -1.22
+						},
+						{
+							"time": 0.4167,
+							"angle": 7.87
+						},
+						{
+							"time": 0.8334,
+							"angle": -1.22
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				},
+				"main_gauche": {
+					"rotate": [
+						{
+							"time": 0,
+							"angle": -15.84
+						},
+						{
+							"time": 0.4167,
+							"angle": -20.27
+						},
+						{
+							"time": 0.8334,
+							"angle": -15.84
+						}
+					],
+					"shear": [
+						{
+							"time": 0
+						},
+						{
+							"time": 0.4167
+						},
+						{
+							"time": 0.8334
+						}
+					]
+				}
+			}
+		}
+	}
+}
