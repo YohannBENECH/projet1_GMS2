@@ -1,7 +1,6 @@
 
 
 var tgt_list = ds_list_create();				// Liste des cibles dans l'attack_range
-tgt_list = scr_in_attack_square();				// 
 var tgt_number = ds_list_size(tgt_list);		// Nombre de cibles trouvées
 
 var i=0;										// Compteur
@@ -11,6 +10,9 @@ if(global.selected != noone)
 {
 	scr_place_attack_squares(global.selected, false);
 }
+
+tgt_list = scr_in_attack_square();
+
 /*
 if(tgt_number != 0)
 {
